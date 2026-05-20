@@ -37,9 +37,9 @@
 
 ## Types & API Layer (~20 min)
 
-- [ ] Define interfaces in `src/types/index.ts`: `Movie`, `MovieDetail`, `WatchlistItem`
-- [ ] Create `src/api/tmdb.ts` with a base fetch wrapper (includes error handling + AbortController)
-- [ ] Add `getTrending()`, `searchMovies(query)`, `getMovieDetail(id)`
+- [x] Define interfaces in `src/types/index.ts`: `Movie`, `MovieDetail`, `WatchlistItem`
+- [x] Create `src/api/tmdb.ts` with a base fetch wrapper (includes error handling + AbortController)
+- [x] Add `getTrending()`, `searchMovies(query)`, `getMovieDetail(id)`
 
 ---
 
