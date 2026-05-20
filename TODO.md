@@ -45,10 +45,10 @@
 
 ## Redux Store (~30 min)
 
-- [ ] Create `src/store/index.ts` — `configureStore` with typed `RootState` + `AppDispatch`
-- [ ] Create `watchlistSlice.ts` — actions: `add`, `remove` · persisted to `localStorage`
-- [ ] Create `ratingsSlice.ts` — actions: `setRating` · state: `Record<number, number>`
-- [ ] Create typed hooks in `src/hooks/redux.ts`: `useAppSelector`, `useAppDispatch`
+- [x] Create `src/store/index.ts` — `configureStore` with typed `RootState` + `AppDispatch`
+- [x] Create `watchlistSlice.ts` — actions: `add`, `remove` · persisted to `localStorage`
+- [x] Create `ratingsSlice.ts` — actions: `setRating` · state: `Record<number, number>`
+- [x] Create typed hooks in `src/hooks/redux.ts`: `useAppSelector`, `useAppDispatch`
 
 ---
 
