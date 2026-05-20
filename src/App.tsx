@@ -1,10 +1,14 @@
-import './App.css'
+import { ThemeToggle } from '@/components/theme/ThemeToggle'
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-red-500">CineVault</h1>
-    </div>
+    <main className="min-h-screen bg-white text-slate-950 transition-colors dark:bg-slate-950 dark:text-white">
+      <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center gap-6 px-4">
+        <h1 className="text-4xl font-bold">CineVault</h1>
+
+        <ThemeToggle />
+      </div>
+    </main>
   )
 }
 

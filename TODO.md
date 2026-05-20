@@ -54,10 +54,10 @@
 
 ## Context API (~20 min)
 
-- [ ] Create `src/context/ThemeContext.tsx` — `theme: 'light' | 'dark'`, `toggleTheme()`
-- [ ] Wire Tailwind `darkMode: 'class'` to the context toggle
-- [ ] Create `useTheme()` custom hook consuming the context
-- [ ] Wrap app in `<ThemeProvider>` in `main.tsx`
+- [x] Create `src/context/ThemeContext.tsx` — `theme: 'light' | 'dark'`, `toggleTheme()`
+- [x] Wire Tailwind `darkMode: 'class'` to the context toggle
+- [x] Create `useTheme()` custom hook consuming the context
+- [x] Wrap app in `<ThemeProvider>` in `main.tsx`
 
 ---
 
