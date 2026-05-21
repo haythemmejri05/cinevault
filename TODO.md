@@ -81,10 +81,10 @@
 
 ### Movie-specific
 
-- [ ] `MovieCard.tsx` — poster, title, rating, watchlist toggle; wrapped in `React.memo`
-- [ ] `MovieGrid.tsx` — renders a list of `MovieCard`; prop-drills `onCardClick` down
-- [ ] `StarRating.tsx` — **controlled** component (value from Redux); calls `onRate(score)` prop back to parent
-- [ ] `SearchInput.tsx` — **uncontrolled** component using `useRef`; exposes `focus()` + `clear()` via `useImperativeHandle`
+- [x] `MovieCard.tsx` — poster, title, rating, watchlist toggle; wrapped in `React.memo`
+- [x] `MovieGrid.tsx` — renders a list of `MovieCard`; prop-drills `onCardClick` down
+- [x] `StarRating.tsx` — **controlled** component (value from Redux); calls `onRate(score)` prop back to parent
+- [x] `SearchInput.tsx` — **uncontrolled** component using `useRef`; exposes `focus()` + `clear()` via `useImperativeHandle`
 
 ---
 
