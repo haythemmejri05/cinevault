@@ -22,7 +22,7 @@ function MovieCardComponent({
   onToggleWatchlist,
   onRate,
 }: MovieCardProps) {
-  const posterUrl = movie.poster_path ? `${IMAGE_BASE_URL}${movie.poster_path}` : null
+  const posterUrl = movie.posterPath ? `${IMAGE_BASE_URL}${movie.posterPath}` : null
 
   return (
     <article className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition hover:shadow-md">
@@ -47,7 +47,7 @@ function MovieCardComponent({
         <div>
           <h3 className="line-clamp-2 text-sm font-semibold text-gray-900">{movie.title}</h3>
 
-          <p className="mt-1 text-sm text-gray-600">TMDB rating: {movie.vote_average.toFixed(1)}</p>
+          <p className="mt-1 text-sm text-gray-600">TMDB rating: {movie.voteAverage.toFixed(1)}</p>
         </div>
 
         <StarRating value={userRating} onRate={(score) => onRate(movie.id, score)} />

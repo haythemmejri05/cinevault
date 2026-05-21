@@ -90,10 +90,10 @@
 
 ## HOC (~20 min)
 
-- [ ] `withLogger.tsx` — logs component name + render count to console (simple analytics example)
-- [ ] `withErrorBoundary.tsx` — wraps any component in a class-based `ErrorBoundary`; accepts a `FallbackComponent` prop
+- [x] `withLogger.tsx` — logs component name + render count to console (simple analytics example)
+- [x] `withErrorBoundary.tsx` — wraps any component in a class-based `ErrorBoundary`; accepts a `FallbackComponent` prop
   > Note: `ErrorBoundary` must be a class component (`componentDidCatch` + `getDerivedStateFromError`)
-- [ ] Apply `withErrorBoundary(MovieGrid, ErrorFallback)` in `HomePage`
+- [x] Apply `withErrorBoundary(MovieGrid, ErrorFallback)` in `HomePage`
 
 ---
 
