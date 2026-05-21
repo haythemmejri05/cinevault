@@ -74,10 +74,10 @@
 
 ### Shared
 
-- [ ] `Button.tsx` — props: `variant` (primary/ghost), `onClick`, `disabled`, `loading`
-- [ ] `Input.tsx` — controlled component; `forwardRef` so parent can call `.focus()`
-- [ ] `Spinner.tsx` — simple loading indicator for Suspense fallbacks
-- [ ] `ErrorFallback.tsx` — displayed by Error Boundary; shows message + retry button
+- [x] `Button.tsx` — props: `variant` (primary/ghost), `onClick`, `disabled`, `loading`
+- [x] `Input.tsx` — controlled component; `forwardRef` so parent can call `.focus()`
+- [x] `Spinner.tsx` — simple loading indicator for Suspense fallbacks
+- [x] `ErrorFallback.tsx` — displayed by Error Boundary; shows message + retry button
 
 ### Movie-specific
 
