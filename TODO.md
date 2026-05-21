@@ -63,10 +63,10 @@
 
 ## Custom Hooks (~30 min)
 
-- [ ] `useDebounce<T>(value, delay)` — debounces search input
-- [ ] `useFetch<T>(fetchFn, deps)` — generic loader with `data`, `loading`, `error` states; cleanup with AbortController in `useEffect`
-- [ ] `useLocalStorage<T>(key, initial)` — synced localStorage state
-- [ ] `useClickOutside(ref, callback)` — detects outside clicks (used for dropdown/modal)
+- [x] `useDebounce<T>(value, delay)` — debounces search input
+- [x] `useFetch<T>(fetchFn, deps)` — generic loader with `data`, `loading`, `error` states; cleanup with AbortController in `useEffect`
+- [x] `useLocalStorage<T>(key, initial)` — synced localStorage state
+- [x] `useClickOutside(ref, callback)` — detects outside clicks (used for dropdown/modal)
 
 ---
 
